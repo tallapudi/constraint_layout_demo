@@ -18,6 +18,7 @@
     <string name="gender">Gender</string>
     <string name="activity">Activity</string>
     <string name="write">Write about yourself</string>
+    <string name="title_activity_second">SecondActivity</string>
 
 
 </resources>

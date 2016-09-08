@@ -1,5 +1,6 @@
 package com.example.vamsi.myapplication;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
@@ -30,6 +31,15 @@ public class MainActivity extends AppCompatActivity {
 
         tvCommunities.setTextColor(ContextCompat.getColor(this, R.color.designation));
         tvUsers.setTextColor(ContextCompat.getColor(this, R.color.designation));
+
+
+        tvUsers.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, ProfileActivity.class);
+                startActivity(intent);
+            }
+        });
 
         tvCommunities.setOnClickListener(new View.OnClickListener() {
             @Override
