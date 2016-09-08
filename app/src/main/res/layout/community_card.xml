@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    card_view:cardBackgroundColor="@color/communities_bg"
+    card_view:cardCornerRadius="6dp"
+    card_view:cardElevation="10dp">
+        <android.support.constraint.ConstraintLayout
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:id="@+id/constraintLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="200dp"
+            android:contextClickable="true">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                card_view:srcCompat="@drawable/ic_icon_1"
+                android:id="@+id/imageView"
+                card_view:layout_constraintRight_toRightOf="@+id/constraintLayout3"
+                card_view:layout_constraintLeft_toLeftOf="@+id/constraintLayout3"
+                card_view:layout_constraintTop_toTopOf="@+id/constraintLayout3"
+                card_view:layout_constraintBottom_toBottomOf="@+id/constraintLayout3"
+                card_view:layout_constraintVertical_bias="0.25"
+                android:contentDescription="@string/users" />
+
+            <TextView
+                android:text="@string/heading"
+                android:textAlignment="center"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_username"
+                card_view:layout_constraintTop_toBottomOf="@+id/imageView"
+                card_view:layout_constraintRight_toRightOf="@+id/constraintLayout3"
+                android:layout_marginTop="16dp"
+                card_view:layout_constraintLeft_toLeftOf="@+id/constraintLayout3"
+                android:textStyle="bold"
+                android:textColor="@color/cardview_light_background"
+                android:textSize="24sp" />
+
+            <TextView
+                android:text="@string/community_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_designation"
+                android:textColor="@color/designation"
+                android:layout_marginTop="16dp"
+                card_view:layout_constraintTop_toBottomOf="@+id/tv_username"
+                android:layout_marginEnd="16dp"
+                card_view:layout_constraintRight_toRightOf="@+id/constraintLayout3"
+                android:layout_marginRight="16dp"
+                android:layout_marginStart="16dp"
+                card_view:layout_constraintLeft_toLeftOf="@+id/constraintLayout3"
+                android:layout_marginLeft="16dp" />
+
+            <TextView
+                android:text="@string/followers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/cardview_light_background"
+                android:id="@+id/tv_details"
+                android:textStyle="normal|bold"
+                android:layout_marginTop="16dp"
+                card_view:layout_constraintTop_toBottomOf="@+id/tv_designation"
+                android:layout_marginStart="16dp"
+                card_view:layout_constraintLeft_toLeftOf="@+id/constraintLayout3"
+                android:layout_marginLeft="16dp"
+                android:layout_marginEnd="16dp"
+                card_view:layout_constraintRight_toRightOf="@+id/constraintLayout3"
+                android:layout_marginRight="16dp" />
+
+            <TextView
+                android:text="@string/profile_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="50dp"
+                android:paddingLeft="50dp"
+                android:textColor="@color/designation"
+                android:id="@+id/tv_description"
+                android:paddingBottom="20dp"
+                android:textAlignment="center"
+                android:textStyle="normal|italic"
+                android:layout_marginTop="16dp"
+                card_view:layout_constraintTop_toBottomOf="@+id/tv_details"
+                android:layout_marginStart="16dp"
+                card_view:layout_constraintLeft_toLeftOf="@+id/constraintLayout3"
+                android:layout_marginLeft="16dp"
+                android:layout_marginEnd="16dp"
+                card_view:layout_constraintRight_toRightOf="@+id/constraintLayout3"
+                android:layout_marginRight="16dp" />
+
+
+        </android.support.constraint.ConstraintLayout>
+</android.support.v7.widget.CardView>

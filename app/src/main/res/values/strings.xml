@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ConstraintLayoutExample</string>
+    <string name="users">Users</string>
+    <string name="experts">Experts</string>
+    <string name="communities">Communities</string>
+    <string name="user_name">Ralph Santiago</string>
+    <string name="designation">Aerobics Expert</string>
+    <string name="user_details">11 Years | Mumbai | 7 KM</string>
+
+
+    <string name="profile_description">Be not determined against the odds in life as the tree that falls in a storm, but as the storm itself.</string>
+    <string name="reviews">17 Reviews</string>
+    <string name="heading">Food and Diet Tips For A Healthier Life</string>
+    <string name="community_name">General Community</string>
+    <string name="followers">123 Followers</string>
+    <string name="profile_desc">Filling your profile is a simple one-time process and will help you in discovering people with similar profiles.</string>
+    <string name="dob">Date of Birth</string>
+    <string name="gender">Gender</string>
+    <string name="activity">Activity</string>
+    <string name="write">Write about yourself</string>
+
+
+</resources>
