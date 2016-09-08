@@ -97,7 +97,7 @@
                 android:layout_marginTop="8dp"
                 android:textStyle="normal|bold"
                 android:textSize="14sp"
-                android:id="@+id/textView11"
+                android:id="@+id/tv_username"
                 android:layout_marginEnd="16dp"
                 card_view:layout_constraintRight_toRightOf="@+id/constraintLayout3"
                 android:layout_marginRight="16dp"
@@ -121,7 +121,7 @@
                 android:layout_marginEnd="16dp"
                 card_view:layout_constraintRight_toRightOf="@+id/constraintLayout3"
                 android:layout_marginRight="16dp"
-                card_view:layout_constraintTop_toBottomOf="@+id/textView11"
+                card_view:layout_constraintTop_toBottomOf="@+id/tv_username"
                 android:layout_marginTop="8dp" />
         </android.support.constraint.ConstraintLayout>
 </android.support.v7.widget.CardView>
