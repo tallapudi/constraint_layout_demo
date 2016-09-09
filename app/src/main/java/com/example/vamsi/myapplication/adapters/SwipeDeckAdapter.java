@@ -61,7 +61,7 @@ public class SwipeDeckAdapter extends BaseAdapter {
             }
 
         }
-        ((TextView) v.findViewById(R.id.tv_username)).setText(data.get(position));
+        ((TextView) v.findViewById(R.id.tv_reviews)).setText(data.get(position));
 
         v.setOnClickListener(new View.OnClickListener() {
             @Override
